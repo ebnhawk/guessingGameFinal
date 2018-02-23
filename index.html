@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Guessing Game</title>
+
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+
+  </head>
+  <body>
+
+      <div id='app' class='center container'>
+
+        <div id='headers'>
+          <p id='ahoy'>Ahoy!</p>
+          <p id='intro'>Guess how many gold dubloons are in the chest!</p>
+
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <input id='player-input' class='center' placeholder='#' maxlength='3' autofocus=autofocus>
+            <button id='submit' class='btn btn-default center'>Go!</button>
+          </div>
+
+          <div id='guesses'>
+            <ul id='guess-list'>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+            </ul>
+          </div>
+
+          <div id='menu-btns'>
+            <button id='reset' class='bottom-button center'>Reset</button>
+            <button id='hint' class='bottom-button center'>Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+    <div id='footer'>
+        <div class= 'flex-container'>
+          <div class='footer-segment'>
+            <img src='fa-logo@2x.png' id="logoFS"></img>
+          </div>
+
+          <div class='footer-segment'>
+            <h4>project by ebnhawk</h4>
+          </div>
+
+          <div class='footer-segment'>
+            <img src='grace_hopper_academy.png' id='logoGH'></img>
+          </div>
+
+        </div>
+    </div>
+  <script src="jquery-3.3.1.js"></script>
+  <script src="GuessingGame.js"></script>
+  </body>
+</html>
